@@ -3,9 +3,18 @@
 /* applies to screens smaller than 500px (first breakpoint) */
 /* and above unless overwritten below */
 
+.main-menu a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+
 body {
   background: #fcc;
-} 
+}
 
 
 
@@ -14,10 +23,41 @@ body {
 @media screen and (min-width: 500px) {
 
   /* applies to screens wider than 499px */
-  
+
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+}
+
+.main-menu a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.main-menu a:hover {
+  background-color: black;
+  color: white;
+}
+
+.main-menu a.active {
+  background-color: black;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
   body {
     background: #cfc;
-  } 
+  }
 }
 
 
@@ -30,5 +70,5 @@ body {
 
   body {
     background: #ccf;
-  } 
+  }
 }
