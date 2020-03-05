@@ -8,10 +8,15 @@
     display: block;
     text-align: left;
   }
-  .header-right {
+.header-right {
     float: none;
   }
 
+.header {
+    overflow: hidden;
+    background-color: white;
+    padding: 20px 10px;
+  }
 body {
   background: #fcc;
 }
