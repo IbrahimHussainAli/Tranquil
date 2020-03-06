@@ -3,22 +3,15 @@
 /* applies to screens smaller than 500px (first breakpoint) */
 /* and above unless overwritten below */
 
-.main-menu a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-.header-right {
-    float: none;
-  }
 
-.header {
-    overflow: hidden;
-    background-color: white;
-    padding: 20px 10px;
-  }
 body {
   background: #fcc;
+}
+
+.main-menu a{display: none;}
+.main-menu a.icon {
+  float: right;
+  display: block;
 }
 
 
@@ -65,9 +58,14 @@ body {
   float: right;
 }
 
+.main-menu .icon {
+  display: none;
+}
+
   body {
     background: #cfc;
   }
+
 }
 
 
