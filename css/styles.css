@@ -8,11 +8,6 @@ body {
   background: #fcc;
 }
 
-.main-menu a{display: none;}
-.main-menu a.icon {
-  float: right;
-  display: block;
-}
 
 
 
@@ -22,44 +17,54 @@ body {
 
   /* applies to screens wider than 499px */
 
-.header {
-  overflow: hidden;
-  background-color: white;
-  padding: 20px 10px;
-}
-
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.main-menu a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
+* {
+  padding: 0;
+  margin: 0;
   text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-.main-menu a:hover {
-  background-color: black;
-  color: white;
+.mainMenu {
+  background-color: white;
+  height: 80px;
+  width: 100%;
 }
 
-.main-menu a.active {
-  background-color: black;
-  color: white;
+.mainMenu img {
+  padding: 15px;
 }
 
-.header-right {
+.mainMenu ul{
   float: right;
+  margin-right: 20px;
 }
 
-.main-menu .icon {
-  display: none;
+.mainMenu ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+.mainMenu ul li a{
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.mainMenu a.active{
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-underline-position: under;
+}
+
+.mainMenu a:hover{
+  background-color: black;
+  color: white;
+  transition: .3s;
 }
 
   body {
