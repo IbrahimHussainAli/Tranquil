@@ -22,6 +22,12 @@ body {
 
 .main-nav a{
  list-style-type: none;
+ color: black;
+ font-size: 17px;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ padding: 4px;
+ border-radius: 1px;
 }
 
 .main-nav li {
