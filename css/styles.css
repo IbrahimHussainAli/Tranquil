@@ -2,37 +2,6 @@
 
 /* applies to screens smaller than 500px (first breakpoint) */
 /* and above unless overwritten below */
-
-
- .menuIcon{
-  display: flex;
-  justify-content: flex-end;
-}
-
-.mainMenu ul{
-  position: fixed;
-  width: 100%
-  height: 100vh;
-  background: white
-  top: 80px;
-  left: 0;
-  text-align: center;
-} 
-
-
-
-body {
-  background: #fcc;
-}
-
-
-
-/* TABLET STYLES */
-
-@media screen and (min-width: 500px) {
-
-  /* applies to screens wider than 499px */
-
 * {
   padding: 0;
   margin: 0;
@@ -41,22 +10,87 @@ body {
   background-color: white;
 }
 
+body {
+  background: #fcc;
+}
+
+.header {
+  font-size: 17px;
+  background-color: white;
+}
+
+
+.main-nav a{
+ list-style-type: none;
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.header .logo {
+  display: inline-block;
+  padding: 13px;
+
+}
+
+.menuIcon {
+ position: absolute;
+ top: 10px;
+ right: 20px;
+ cursor: pointer;
+ color: black;
+ font-size: 25px;
+ padding: 10px;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+/* TABLET STYLES */
+
+@media screen and (min-width: 500px) {
+
+  /* applies to screens wider than 499px */
+
+.mainMenu .menuIcon {
+    display: none;
+  }
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding-bottom: 0;
+  height: 70px;
 }
 
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+  justify-content: flex-end;
+}
 
-.mainMenu ul li{
+.main-nav li{
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
   list-style: none;
 }
 
-.mainMenu ul li a{
+.header .logo {
+  margin-top: 0;
+}
+
+.main-nav li a{
   color: black;
   font-size: 17px;
   text-transform: uppercase;
@@ -65,30 +99,23 @@ body {
   border-radius: 1px;
 }
 
-.mainMenu a.active{
+.main-nav a.active-link{
   text-decoration: underline;
   text-decoration-color: black;
   text-underline-position: under;
 }
 
-.mainMenu ul a:hover{
+.main-nav a:hover{
   background-color: black;
   color: white;
   transition: .3s;
-}
+} */
+
 
   body {
     background: #cfc;
   }
 
-.menuIcon {
-  font-size: 30px;
-  color: black;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
 
 }
 

@@ -1,10 +1,9 @@
 console.log("hello");
 
-function menuFunction() {
-  var x = document.getElementById("nav-menu");
-  if (x.className === "mainMenu") {
-    x.className += " responsive";
-  } else {
-    x.className = "mainMenu";
-  }
-}
+let mainNav = document.getElementById('nav-menu');
+
+let navBarToggle = document.getElementById('js-navbar-toggle');
+
+navBarToggle.addEventListener('click', function () {
+  mainNav.classList.toggle('active');
+});
