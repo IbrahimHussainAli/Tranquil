@@ -35,10 +35,9 @@ header {
   margin: 15px auto;
 }
 
-.header .logo {
+header .logo {
   display: inline-block;
   padding: 13px;
-
 }
 
 .menuIcon {
