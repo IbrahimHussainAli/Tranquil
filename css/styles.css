@@ -30,6 +30,12 @@ header {
  border-radius: 1px;
 }
 
+.main-nav a:hover{
+  background-color: black;
+  color: white;
+  transition: .3s;
+}
+
 .main-nav li {
   text-align: center;
   margin: 15px auto;
@@ -114,7 +120,7 @@ header {
   background-color: black;
   color: white;
   transition: .3s;
-} */
+}
 
 
   body {
