@@ -16,6 +16,7 @@ header {
   background-color: white;
 }
 
+/*Navigation bar */
 
 .main-nav a{
  list-style-type: none;
@@ -63,6 +64,7 @@ header .logo {
   display: block;
 }
 
+/* Homepage feature */
 .homeFeature {
   display: flex;
   justify-content: center;
@@ -103,6 +105,12 @@ header {
   height: 70px;
 }
 
+/*Navigation bar */
+
+.mainMenu .menuIcon {
+    display: none;
+  }
+  
 .main-nav {
   display: flex;
   flex-direction: row;
