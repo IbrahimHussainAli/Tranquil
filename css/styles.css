@@ -32,6 +32,7 @@ main {
  letter-spacing: 3px;
  padding: 4px;
  border-radius: 1px;
+ text-decoration: none;
 }
 
 .main-nav a:hover{
@@ -68,6 +69,12 @@ header .logo {
 
 .active {
   display: block;
+}
+
+.main-nav a.active-link{
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-underline-position: under;
 }
 
 /* Homepage feature */
