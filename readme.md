@@ -16,7 +16,7 @@ The `index.html` file includes a basic template with a link to the `css/styles.c
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  
+
   <h1>Hello World</h1>
 
   <script src="js/scripts.js"></script>
@@ -36,7 +36,7 @@ The `css/styles.css` file contains a basic starting template for a responsive pa
 
 body {
   background: #fcc;
-} 
+}
 
 
 
@@ -45,10 +45,10 @@ body {
 @media screen and (min-width: 500px) {
 
   /* applies to screens wider than 499px */
-  
+
   body {
     background: #cfc;
-  } 
+  }
 }
 
 
@@ -61,7 +61,7 @@ body {
 
   body {
     background: #ccf;
-  } 
+  }
 }
 
 ```
@@ -73,3 +73,9 @@ The `js/scripts.js` file contains a simple console.log statement to confirm that
 ```
 console.log("hello");
 ```
+## images
+
+The images with the prefix tranquil were made on my own using a software called Figma
+Images that were used for the website were from:
+https://aestheticamagazine.com/
+https://readcereal.com/
