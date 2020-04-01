@@ -3,7 +3,7 @@
 /* applies to screens smaller than 500px (first breakpoint) */
 /* and above unless overwritten below */
 * {
-  background-color: white;
+background-color: white;
 }
 
 body {
@@ -19,7 +19,7 @@ header {
 
 main {
   margin: 0 auto;
-  padding: 0 38px;
+  padding: 0 39px;
 }
 
 /*Navigation bar */
@@ -53,7 +53,7 @@ header .logo {
 
 .menuIcon {
  position: absolute;
- top: 14px;
+ top: 15px;
  right: 20px;
  cursor: pointer;
  color: black;
@@ -74,13 +74,14 @@ header .logo {
 .homeFeature {
   display: flex;
   justify-content: center;
-  max-width: 1000px;
-  margin: auto;
+  max-height: 650px;
+  width: auto;
+  object-fit: cover;
 }
 
 .featureSlides {
   display: none;
-  animation-duration: 3s
+  animation-duration: 3s;
 }
 
 /* TABLET STYLES */
@@ -99,7 +100,9 @@ header {
   align-items: center;
   padding-bottom: 0;
   height: 70px;
+  min-width: 867px;
 }
+
 
 /*Navigation bar */
 
@@ -148,6 +151,12 @@ header .logo {
   transition: .3s;
 }
 
+
+.homeFeature {
+  padding-left: 50px;
+  padding-right: 50px;
+  min-width: 718px;
+}
 
 body {
     background: #cfc;
