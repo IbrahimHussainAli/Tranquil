@@ -23,6 +23,9 @@ main {
   padding: 0 39px;
 }
 
+.content {
+  padding: 10px;
+}
 
 /*Navigation bar */
 
@@ -95,6 +98,7 @@ header .logo {
 
 /*homepage posts */
 .latestPosts {
+  padding-top: 25px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
   grid-gap: 1rem;
@@ -114,12 +118,6 @@ header .logo {
   transform: translateY(-5px);
 }
 
-
-
-
-
-
-
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
@@ -136,7 +134,7 @@ header {
   align-items: center;
   padding-bottom: 0;
   height: 70px;
-  min-width: 867px;
+  min-width: 700px;
 }
 
 
