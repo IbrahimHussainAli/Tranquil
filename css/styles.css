@@ -3,13 +3,15 @@
 /* applies to screens smaller than 500px (first breakpoint) */
 /* and above unless overwritten below */
 * {
-background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background: #fcc;
+  background-color: white;
   margin: 0 auto;
   font-family: 'Noto Serif', serif;
+
 }
 
 header {
@@ -118,6 +120,86 @@ header .logo {
   transform: translateY(-5px);
 }
 
+/*footer */
+
+footer {
+  background-color: #4d4d4d;;
+  padding: 60px 0;
+}
+
+.footer-container {
+  margin: auto;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.right-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.right-col img {
+  width: 100px;
+  margin: 10px;
+
+}
+
+.left-col{
+  display: flex;
+  justify-content: center;
+}
+
+.social-media {
+  margin: 10px 0;
+}
+
+.social-media a {
+  color: black;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover{
+  color: #0099ff
+}
+
+.right-col img:hover{
+  color: #0099ff
+}
+
+.aboutText {
+  color: grey;
+  width: 40%;
+  margin: 10px;
+}
+
+
+#websiteFooter {
+  list-style: none;
+}
+
+#websiteFooter li {
+  margin: 5px;
+  padding-right: 25px;
+}
+
+#websiteFooter li a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: white;
+  padding: 10px 0;
+  outline: none;
+  line-height: 0.5;
+}
+
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
@@ -194,9 +276,22 @@ header .logo {
 }
 
 body {
-    background: #cfc;
+    background: white;
   }
 
+/*footer */
+
+.footer-container {
+  flex-direction: row;
+}
+
+.aboutText {
+  width: 60%;
+}
+
+.left-col {
+  padding-left: 90px;
+}
 
 }
 
