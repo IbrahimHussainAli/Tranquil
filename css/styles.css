@@ -18,6 +18,7 @@ header {
   font-size: 17px;
   background-color: white;
   padding: 10px 20px;
+  margin-bottom: 1.6%;
 }
 
 main {
@@ -206,22 +207,20 @@ footer {
 .artPosts {
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-auto-rows: 75px;
+  grid-template-columns: repeat(1, minmax(200px, 1fr));
+  grid-auto-rows: auto ;
 }
 
 .artPosts img {
   width: 100%;
   height: auto;
+  transition: all .4s ease-in-out;
 }
 
-.horiArtPostImage {
-  grid-column: span 2;
+.artPosts img:hover {
+  transition: all .4s ease-in-out;
 }
 
-.vertArtPostImage {
-  grid-row: span 2;
-}
 
 /* TABLET STYLES */
 
@@ -309,6 +308,16 @@ body {
 .left-col {
   padding-left: 90px;
 }
+
+/*art page */
+
+.artPosts {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-auto-rows: auto ;
+}
+
 
 }
 
