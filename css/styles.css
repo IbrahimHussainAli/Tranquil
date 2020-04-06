@@ -210,9 +210,17 @@ footer {
   grid-auto-rows: 75px;
 }
 
-.artPostImage img {
+.artPosts img {
   width: 100%;
   height: auto;
+}
+
+.horiArtPostImage {
+  grid-column: span 2;
+}
+
+.vertArtPostImage {
+  grid-row: span 2;
 }
 
 /* TABLET STYLES */
