@@ -125,6 +125,7 @@ header .logo {
 footer {
   background-color: #4d4d4d;;
   padding: 60px 0;
+  margin-top: 30px;
 }
 
 .footer-container {
@@ -198,6 +199,20 @@ footer {
   padding: 10px 0;
   outline: none;
   line-height: 0.5;
+}
+
+/* artpage */
+
+.artPosts {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: 75px;
+}
+
+.artPostImage img {
+  width: 100%;
+  height: auto;
 }
 
 /* TABLET STYLES */
