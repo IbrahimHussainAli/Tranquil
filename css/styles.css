@@ -236,6 +236,16 @@ footer {
   color: #6e6a5f;
 }
 
+.artPostImage {
+  opacity: 1;
+  transition: all .55s ease-in-out;
+}
+
+.artPostImage img:hover {
+  opacity: 0.9;
+  transition: all .3s ease-in-out;
+}
+
 
 /* TABLET STYLES */
 
