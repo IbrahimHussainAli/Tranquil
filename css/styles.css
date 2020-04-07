@@ -206,7 +206,7 @@ footer {
 
 .artPosts {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 30px;
   grid-template-columns: repeat(1, minmax(200px, 1fr));
   grid-auto-rows: auto ;
 }
@@ -216,6 +216,25 @@ footer {
   height: auto;
 }
 
+/* Styles for text */
+
+.postText {
+  margin-top: 10px;
+}
+
+.postTitle {
+  margin: 0 auto;
+  line-height: .9;
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.postContent {
+  line-height: 1.5;
+  font-size: 12px;
+  color: #6e6a5f;
+}
 
 
 /* TABLET STYLES */
@@ -309,7 +328,7 @@ body {
 
 .artPosts {
   display: grid;
-  grid-gap: 18px;
+  grid-gap: 40px;
   grid-template-columns: repeat(3, minmax(200px, 1fr));
   grid-auto-rows: auto;
   grid-auto-flow: dense;
