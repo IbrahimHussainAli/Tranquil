@@ -320,6 +320,17 @@ body {
     background: white;
   }
 
+/*homepage */
+
+.postImage img {
+  filter: grayscale(100%);
+  transition: filter .5 ease-in-out;
+}
+
+.postImage img:hover {
+  filter: grayscale(0%);
+}
+
 /*footer */
 
 .footer-container {
@@ -361,6 +372,6 @@ body {
   /* applies to screens wider than 999px */
 
   body {
-    background: #ccf;
+    background: white;
   }
 }
