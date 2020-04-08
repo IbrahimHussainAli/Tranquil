@@ -85,6 +85,8 @@ header .logo {
   text-underline-position: under;
 }
 
+
+
 /* Homepage feature */
 .homeFeature {
   display: flex;
@@ -149,7 +151,13 @@ footer {
 .right-col img {
   width: 100px;
   margin: 10px;
+  fill: black;
+  transition: .3s linear;
 
+}
+
+.right-col img:hover {
+  fill: #0099ff;
 }
 
 .left-col{
@@ -170,12 +178,9 @@ footer {
 }
 
 .social-media a:hover{
-  color: #0099ff
+  color: #0099ff;
 }
 
-.right-col img:hover{
-  color: #0099ff
-}
 
 .aboutText {
   color: grey;
