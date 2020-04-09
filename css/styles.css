@@ -268,7 +268,6 @@ header {
   min-width: 700px;
 }
 
-
 /*Navigation bar */
 
 .mainMenu .menuIcon {
@@ -315,6 +314,7 @@ header .logo {
   color: white;
   transition: .3s;
 }
+
 
 
 
