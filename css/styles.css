@@ -21,11 +21,6 @@ header {
   margin-bottom: 1.6%;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
 
 main {
   margin: 0 auto;
