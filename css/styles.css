@@ -21,6 +21,12 @@ header {
   margin-bottom: 1.6%;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
 main {
   margin: 0 auto;
   padding: 0 39px;
@@ -314,6 +320,8 @@ header .logo {
   color: white;
   transition: .3s;
 }
+
+
 
 /* Home feature */
 
