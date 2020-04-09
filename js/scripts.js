@@ -9,11 +9,12 @@ let navBarToggle = document.getElementById('js-navbar-toggle');
 
 navBarToggle.addEventListener('click', function () {
   mainNav.classList.toggle('active');
+  console.log("navigationBar");
 });
 
 //Homepage slide
 
-var slideIndex = 0;
+let slideIndex = 0;
 showSlides();
 
 function showSlides() {
