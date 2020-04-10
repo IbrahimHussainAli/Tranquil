@@ -155,8 +155,6 @@ footer {
 
 }
 
-
-
 .left-col{
   display: flex;
   justify-content: center;
@@ -183,6 +181,8 @@ footer {
   color: grey;
   width: 40%;
   margin: 10px;
+  line-height: 1.5;
+  font-size: 14px;
 }
 
 

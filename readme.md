@@ -65,6 +65,8 @@ body {
 }
 
 ```
+The font is from google fonts:
+https://fonts.google.com/specimen/Noto+Serif?selection.family=Noto+Serif
 
 ## js/scripts.js
 
