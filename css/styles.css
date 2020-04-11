@@ -250,13 +250,26 @@ footer {
 
 /*artSearch api */
 
-.met-page {
+.metText {
   margin: 10px;
 }
 
+.metText h1, .metText p {
+  margin: 5px;
+}
+
+.metText h1 {
+  margin-bottom: 10px;
+}
+
+.metText p {
+  font-size: 14px;
+}
+
 #searchForm {
+  margin-top: 20px;
   margin: 10px;
-  margin-bottom: 3px;
+  margin-bottom: 15px;
 }
 
 #fetch-result {
@@ -275,6 +288,7 @@ footer {
   height: auto;
   margin-top: 5px;
 }
+
 
 
 
