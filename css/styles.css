@@ -31,6 +31,15 @@ main {
   padding: 10px;
 }
 
+.fade-in {
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 /*Navigation bar */
 
 .main-nav a{
