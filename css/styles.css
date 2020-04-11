@@ -248,8 +248,23 @@ footer {
   transition: all .3s ease-in-out;
 }
 
-/*artSearch */
+/*artSearch api */
 
+#fetch-result {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(200px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 10px;
+}
+
+#fetch-result {
+  list-style-type: none;
+}
+
+#fetch-result .api-image {
+  width: 100%;
+  height: auto;
+}
 
 
 /* TABLET STYLES */
@@ -366,6 +381,13 @@ body {
   grid-column: span 2;
 }
 
+/* api art search page */
+
+#fetch-result {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  grid-auto-rows: auto;
+}
 
 
 }

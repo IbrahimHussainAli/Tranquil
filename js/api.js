@@ -43,7 +43,7 @@ let url = baseURL + queryBox.value;
             let img = data.primaryImage;
 
             let list = document.createElement("li");
-            list.innerHTML = "<strong>" + title + `<img src="${img}" alt="${title}"/>`;
+            list.innerHTML = "<strong>" + title + `<img class="api-image" src="${img}" alt="${title}"/>`;
             fetchResult.appendChild(list);
 
            /* let result = document.createElement('li');
