@@ -9,7 +9,7 @@
   let baseURL = "https://collectionapi.metmuseum.org/public/collection/v1/search?q="
 
   //const fetchButton = document.getElementById("fetch-button");
-  //const fetchResult = document.getElementById("fetch-result");
+  const fetchResult = document.getElementById("fetch-result");
 
 
 searchForm.addEventListener("submit", function(ev) {
@@ -23,7 +23,37 @@ let url = baseURL + queryBox.value;
        return response.json();
 
       }).then(function(data) {
-        console.log(data);
+        let i;
+
+        for(i=0; i<6; i++) {
+          console.log(data.objectIDs[i]);
+
+         let obj = (data.objectIDs[i]);
+
+
+
+          let objULR = `https://collectionapi.metmuseum.org/public/collection/v1/objects/${obj}`
+
+          fetch(objULR).then(function (response) {
+           return response.json();
+
+          }).then(function(data) {
+            console.log(data);
+            let title = data.title;
+            let img = data.primaryImage;
+
+            let list = document.createElement("li");
+            list.innerHTML = "<strong>" + title + `<img src="${img}" alt="${title}"/>`;
+            fetchResult.appendChild(list);
+
+           /* let result = document.createElement('li');
+            //let record = data.objectIDs[i];
+            result.appendChild(thumbnail);
+            result.appendChild(title);
+            fetchResult.appendChild(result);*/
+          });
+
+        }
 
       })
       queryBox.value = "";
@@ -31,7 +61,24 @@ let url = baseURL + queryBox.value;
   }, false);
 
 
+/*
+  let thumbnail = data => {
+    let img = document.createElement('img');
+    if(data.primaryImage) {
+      img.src = data.primaryImage;
+      img.alt = data.title;
+    }
+    return img;
+  }
 
+  let title = data => {
+    let strong = document.createElement('strong');
+    let a = document.createElement('a');
+    a.textContent = data.title;
+    strong.appendChild(a);
+    return strong;
+  }
+*/
 
 
 }());
