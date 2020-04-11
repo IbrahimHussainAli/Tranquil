@@ -250,6 +250,15 @@ footer {
 
 /*artSearch api */
 
+.met-page {
+  margin: 10px;
+}
+
+#searchForm {
+  margin: 10px;
+  margin-bottom: 3px;
+}
+
 #fetch-result {
   display: grid;
   grid-template-columns: repeat(1, minmax(200px, 1fr));
@@ -264,8 +273,9 @@ footer {
 #fetch-result .api-image {
   width: 100%;
   height: auto;
-
+  margin-top: 5px;
 }
+
 
 
 /* TABLET STYLES */
@@ -388,6 +398,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, minmax(200px, 1fr));
   grid-auto-rows: auto;
+  grid-auto-flow: dense;
 }
 
 
