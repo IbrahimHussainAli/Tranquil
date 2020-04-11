@@ -25,7 +25,7 @@ let url = baseURL + queryBox.value;
       }).then(function(data) {
         let i;
 
-        for(i=0; i<6; i++) {
+        for(i=0; i<8; i++) {
           console.log(data.objectIDs[i]);
 
          let obj = (data.objectIDs[i]);
@@ -41,9 +41,11 @@ let url = baseURL + queryBox.value;
             console.log(data);
             let title = data.title;
             let img = data.primaryImage;
+            let artistName = data.artistDisplayName;
+
 
             let list = document.createElement("li");
-            list.innerHTML = "<strong>" + title + `<img class="api-image" src="${img}" alt="${title}"/>`;
+            list.innerHTML = "<strong>" + title + "<br>" + artistName + `<img class="api-image" src="${img}" alt="${title}"/>`;
             fetchResult.appendChild(list);
 
            /* let result = document.createElement('li');
