@@ -13,6 +13,11 @@
 
 
 searchForm.addEventListener("submit", function(ev) {
+  //clear the list when submit is pressed
+  while (fetchResult.hasChildNodes()) {
+   fetchResult.removeChild(fetchResult.firstChild);
+ }
+
  console.log(queryBox.value);
 
 let url = baseURL + queryBox.value;
@@ -25,7 +30,7 @@ let url = baseURL + queryBox.value;
       }).then(function(data) {
         let i;
 
-        for(i=0; i<8; i++) {
+        for(i=0; i<10; i++) {
           console.log(data.objectIDs[i]);
 
          let obj = (data.objectIDs[i]);
