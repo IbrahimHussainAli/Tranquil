@@ -307,8 +307,14 @@ footer {
   grid-auto-rows: auto;
 }
 
+.articleCredits{
+  font-size: 9px;
+  letter-spacing: 1px;
+  color: gray;
+}
 
 .article-images{
+  margin-top: 15px;
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(1, minmax(200px, 1fr));
@@ -327,7 +333,6 @@ footer {
 .articleHeader img {
   width: 100%;
   height: auto;
-  margin-top: 20px;
   margin-bottom: 15px;
 }
 
@@ -338,6 +343,7 @@ footer {
   margin-bottom: 15px;
   letter-spacing: 0.4px;
   color: #6e6a5f;
+  font-style: italic;
 }
 
 .articleHeader h1 {
