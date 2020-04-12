@@ -489,6 +489,25 @@ body {
   grid-auto-flow: dense;
 }
 
+/* journeyIntoMidnightt post */
+
+.article-post {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  grid-auto-rows: auto;
+}
+
+.articleHeader {
+  grid-column: span 3;
+}
+
+.article-images {
+  grid-column: 3 / 4;
+}
+
+.article-txt{
+  grid-column: span 2;
+}
 
 }
 
