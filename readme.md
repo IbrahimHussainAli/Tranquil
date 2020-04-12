@@ -81,3 +81,4 @@ The images with the prefix tranquil were made on my own using a software called 
 Images that were used for the website were from:
 https://aestheticamagazine.com/
 https://readcereal.com/
+https://www.liamwong.com/
