@@ -133,6 +133,30 @@ header .logo {
   transform: translateY(-5px);
 }
 
+.postText a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+.postText {
+  margin-top: 10px;
+}
+
+.postTitle {
+  margin: 0 auto;
+  line-height: 1;
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.postContent {
+  line-height: 1.5;
+  font-size: 12px;
+  color: #6e6a5f;
+}
+
 /*footer */
 
 footer {
@@ -227,25 +251,7 @@ footer {
   height: auto;
 }
 
-/* Styles for text */
 
-.postText {
-  margin-top: 10px;
-}
-
-.postTitle {
-  margin: 0 auto;
-  line-height: .9;
-  margin-bottom: 10px;
-  font-size: 14px;
-  letter-spacing: 1px;
-}
-
-.postContent {
-  line-height: 1.5;
-  font-size: 12px;
-  color: #6e6a5f;
-}
 
 .artPostImage {
   opacity: 1;
