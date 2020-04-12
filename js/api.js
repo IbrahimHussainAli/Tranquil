@@ -4,7 +4,6 @@
 
   let queryBox = document.getElementById("metQuery");
   let searchForm = document.getElementById("searchForm");
-  let demoJSON = document.getElementById("demo");
 
   let baseURL = "https://collectionapi.metmuseum.org/public/collection/v1/search?q="
 
