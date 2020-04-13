@@ -82,3 +82,16 @@ Images that were used for the website were from:
 https://aestheticamagazine.com/
 https://readcereal.com/
 https://www.liamwong.com/
+https://www.metmuseum.org/
+
+## text for articles and posts
+https://aestheticamagazine.com/
+https://readcereal.com/
+https://www.liamwong.com/
+
+## api source
+https://metmuseum.github.io/
+
+## help with code
+https://www.w3schools.com/
+https://gridbyexample.com/
