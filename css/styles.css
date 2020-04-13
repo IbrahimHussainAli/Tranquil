@@ -42,7 +42,7 @@ main {
 
 /*Navigation bar */
 
-.main-nav a{
+.main-nav a {
  list-style-type: none;
  color: black;
  font-size: 17px;
@@ -53,7 +53,7 @@ main {
  text-decoration: none;
 }
 
-.main-nav a:hover{
+.main-nav a:hover {
   background-color: black;
   color: white;
   transition: .3s;
@@ -89,7 +89,7 @@ header .logo {
   display: block;
 }
 
-.main-nav a.active-link{
+.main-nav a.active-link {
   text-decoration: underline;
   text-decoration-color: black;
   text-underline-position: under;
@@ -304,6 +304,15 @@ footer {
   margin-top: 5px;
 }
 
+#metQuery {
+  border-style: groove;
+}
+
+#submitButton {
+  border-style: groove;
+  border-radius: 3px;
+}
+
 /* journeyIntoMidnightt post */
 
 
@@ -313,13 +322,13 @@ footer {
   grid-auto-rows: auto;
 }
 
-.articleCredits{
+.articleCredits {
   font-size: 9px;
   letter-spacing: 1px;
   color: gray;
 }
 
-.article-images{
+.article-images {
   margin-top: 15px;
   display: grid;
   grid-gap: 30px;
@@ -411,7 +420,7 @@ header {
   justify-content: flex-end;
 }
 
-.main-nav li{
+.main-nav li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
@@ -423,7 +432,7 @@ header .logo {
   height: auto;
 }
 
-.main-nav li a{
+.main-nav li a {
   color: black;
   font-size: 17px;
   text-transform: uppercase;
@@ -433,13 +442,13 @@ header .logo {
   text-decoration: none;
 }
 
-.main-nav a.active-link{
+.main-nav a.active-link {
   text-decoration: underline;
   text-decoration-color: black;
   text-underline-position: under;
 }
 
-.main-nav a:hover{
+.main-nav a:hover {
   background-color: black;
   color: white;
   transition: .3s;
@@ -518,7 +527,7 @@ body {
   grid-column: 3 / 4;
 }
 
-.article-txt{
+.article-txt {
   grid-column: span 2;
 }
 
