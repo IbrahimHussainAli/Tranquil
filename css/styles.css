@@ -97,12 +97,9 @@ header .logo {
 
 
 /* Homepage feature */
-.homeFeature {
-  display: flex;
-  justify-content: center;
-  max-height: 650px;
-  width: auto;
-  object-fit: cover;
+.homeFeature img {
+  max-width: 100%;
+  height: auto;
 }
 
 .featureSlides {
