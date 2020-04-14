@@ -28,6 +28,7 @@ main {
 
 .content {
   padding: 10px;
+  padding-top: 90px;
 }
 
 .fade-in {
@@ -40,6 +41,13 @@ main {
 }
 
 /*Navigation bar */
+
+#myHeader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 
 .main-nav a {
  list-style-type: none;
@@ -70,7 +78,7 @@ header .logo {
 }
 
 .menuIcon {
- position: absolute;
+ position: fixed;
  top: 15px;
  right: 20px;
  cursor: pointer;
@@ -111,8 +119,8 @@ header .logo {
 .latestPosts {
   padding-top: 25px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  grid-gap: 1rem;
+  grid-template-columns: repeat(1, minmax(200px, 1fr));
+  grid-gap: 25px;
 }
 
 .post img {
@@ -191,6 +199,7 @@ footer {
 
 .social-media {
   margin: 10px 0;
+  margin-top: 20px;
 }
 
 .social-media a {
@@ -398,9 +407,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 0;
   height: 70px;
   min-width: 700px;
+  padding: 10px;
+
+}
+
+.right-col img {
+  margin: 5px;
 }
 
 /*Navigation bar */
@@ -412,7 +426,7 @@ header {
 .main-nav {
   display: flex;
   flex-direction: row;
-  margin-right: 30px;
+  margin-right: 50px;
   justify-content: flex-end;
 }
 
@@ -450,7 +464,9 @@ header .logo {
   transition: .3s;
 }
 
-
+.logo {
+  margin-left: 20px;
+}
 
 
 /* Home feature */
@@ -468,6 +484,10 @@ body {
 
 .postImage img:hover {
   filter: grayscale(0%);
+}
+
+.latestPosts {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 /*footer */
