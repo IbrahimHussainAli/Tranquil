@@ -391,9 +391,7 @@ footer {
 
 /* TABLET STYLES */
 
-@media screen and (min-width: 500px) {
-
-  /* applies to screens wider than 499px */
+@media screen and (min-width: 704px) {
 
   main {
     padding: 0 39px;
@@ -467,6 +465,21 @@ header .logo {
 .logo {
   margin-left: 20px;
 }
+
+.latestPosts {
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+}
+
+
+}
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 800px) {
+
+  /* applies to screens wider than 999px */
+  /* applies to screens wider than 499px */
+
 
 
 /* Home feature */
@@ -548,14 +561,6 @@ body {
 }
 
 }
-
-
-
-/* DESKTOP STYLES */
-
-@media screen and (min-width: 1000px) {
-
-  /* applies to screens wider than 999px */
 
   body {
     background: white;
