@@ -11,35 +11,35 @@
   const fetchResult = document.getElementById("fetch-result");
 
 
-searchForm.addEventListener("submit", function(ev) {
-  //clear the list when submit is pressed
-  while (fetchResult.hasChildNodes()) {
-   fetchResult.removeChild(fetchResult.firstChild);
- }
+  searchForm.addEventListener("submit", function(ev) {
+    //clear the list when submit is pressed
+    while (fetchResult.hasChildNodes()) {
+      fetchResult.removeChild(fetchResult.firstChild);
+    }
 
- console.log(queryBox.value);
+    console.log(queryBox.value);
 
-let url = baseURL + queryBox.value;
+    let url = baseURL + queryBox.value;
     let request = new Request(url);
     fetch(request)
-      .then(function (response) {
+      .then(function(response) {
         //console.log(response.json());
-       return response.json();
+        return response.json();
 
       }).then(function(data) {
         let i;
 
-        for(i=0; i<10; i++) {
+        for (i = 0; i < 10; i++) {
           console.log(data.objectIDs[i]);
 
-         let obj = (data.objectIDs[i]);
+          let obj = (data.objectIDs[i]);
 
 
 
           let objULR = `https://collectionapi.metmuseum.org/public/collection/v1/objects/${obj}`
 
-          fetch(objULR).then(function (response) {
-           return response.json();
+          fetch(objULR).then(function(response) {
+            return response.json();
 
           }).then(function(data) {
             console.log(data);
@@ -52,39 +52,39 @@ let url = baseURL + queryBox.value;
             list.innerHTML = "<strong>" + title + "<br>" + artistName + `<img class="api-image" src="${img}" alt="${title}"/>`;
             fetchResult.appendChild(list);
 
-           /* let result = document.createElement('li');
-            //let record = data.objectIDs[i];
-            result.appendChild(thumbnail);
-            result.appendChild(title);
-            fetchResult.appendChild(result);*/
+            /* let result = document.createElement('li');
+             //let record = data.objectIDs[i];
+             result.appendChild(thumbnail);
+             result.appendChild(title);
+             fetchResult.appendChild(result);*/
           });
 
         }
 
       })
-      queryBox.value = "";
+    queryBox.value = "";
     ev.preventDefault();
   }, false);
 
 
-/*
-  let thumbnail = data => {
-    let img = document.createElement('img');
-    if(data.primaryImage) {
-      img.src = data.primaryImage;
-      img.alt = data.title;
+  /*
+    let thumbnail = data => {
+      let img = document.createElement('img');
+      if(data.primaryImage) {
+        img.src = data.primaryImage;
+        img.alt = data.title;
+      }
+      return img;
     }
-    return img;
-  }
 
-  let title = data => {
-    let strong = document.createElement('strong');
-    let a = document.createElement('a');
-    a.textContent = data.title;
-    strong.appendChild(a);
-    return strong;
-  }
-*/
+    let title = data => {
+      let strong = document.createElement('strong');
+      let a = document.createElement('a');
+      a.textContent = data.title;
+      strong.appendChild(a);
+      return strong;
+    }
+  */
 
 
 }());
