@@ -1,7 +1,7 @@
 # CTEC3905 Assignment
 
 - The 4 webpages which are the Assignment are: index.html, art.html, journey-into-midnight.html and artSearch.html. The rest (fashion.html, travel.html, about.html) have been put there to show smooth navigation, but they do not have real content.
--
+- Two posts work; Journey into midnight and The Met Search which bring you to a article page and the API.
 
 # References
 
@@ -9,19 +9,19 @@
 
 - The images with the prefix tranquil and tranquil logo were made on my own using a software called Figma
 - Images that were used for the website were from:
-[Aesthetica Magazine](https://aestheticamagazine.com/)
-[Cereal Magazine](https://readcereal.com/)
-[Liam Wong](https://www.liamwong.com/)
-[Met Museum](https://www.metmuseum.org/)
+- [Aesthetica Magazine](https://aestheticamagazine.com/)
+- [Cereal Magazine](https://readcereal.com/)
+- [Liam Wong](https://www.liamwong.com/)
+- [Met Museum](https://www.metmuseum.org/)
 
 ## Text for articles and posts
-[Aesthetica Magazine](https://aestheticamagazine.com/)
-[Cereal Magazine](https://readcereal.com/)
-[Liam Wong](https://www.liamwong.com/)
+- [Aesthetica Magazine](https://aestheticamagazine.com/)
+- [Cereal Magazine](https://readcereal.com/)
+- [Liam Wong](https://www.liamwong.com/)
 
 ## Api
 - I followed lab sheets and lectures for my API to work.
-[Met Museum](https://metmuseum.github.io/)
+- Api I used [Met Museum](https://metmuseum.github.io/)
 
 ## Fonts
 The font is from google fonts:
