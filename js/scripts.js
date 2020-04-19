@@ -1,6 +1,6 @@
 "use strict";
 
-console.log("hello");
+console.log("Welcome to Tranquil");
 
 //NavigationBar
 let mainNav = document.getElementById('nav-menu');
@@ -9,7 +9,6 @@ let navBarToggle = document.getElementById('js-navbar-toggle');
 
 navBarToggle.addEventListener('click', function() {
   mainNav.classList.toggle('active');
-  console.log("navigationBar");
 });
 
 //Homepage slide
