@@ -1,98 +1,43 @@
 # CTEC3905 Assignment
 
-This is very basic boilerplate code for you to get started with.
+- The 4 webpages which are the Assignment are: index.html, art.html, journey-into-midnight.html and artSearch.html. The rest (fashion.html, travel.html, about.html) have been put there to show smooth navigation, but they do not have real content.
+-
 
-## index.html
+# References
 
-The `index.html` file includes a basic template with a link to the `css/styles.css` file and a script tag after the main content which links to the `js/scripts.js` file.
+## Images
 
-```
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>P-Number</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+- The images with the prefix tranquil and tranquil logo were made on my own using a software called Figma
+- Images that were used for the website were from:
+[Aesthetica Magazine](https://aestheticamagazine.com/)
+[Cereal Magazine](https://readcereal.com/)
+[Liam Wong](https://www.liamwong.com/)
+[Met Museum](https://www.metmuseum.org/)
 
-  <h1>Hello World</h1>
+## Text for articles and posts
+[Aesthetica Magazine](https://aestheticamagazine.com/)
+[Cereal Magazine](https://readcereal.com/)
+[Liam Wong](https://www.liamwong.com/)
 
-  <script src="js/scripts.js"></script>
-</body>
-</html>
-```
+## Api
+- I followed lab sheets and lectures for my API to work.
+[Met Museum](https://metmuseum.github.io/)
 
-## css/styles.css
-
-The `css/styles.css` file contains a basic starting template for a responsive page.
-
-```
-/* MOBILE AND GLOBAL STYLES */
-
-/* applies to screens smaller than 500px (first breakpoint) */
-/* and above unless overwritten below */
-
-body {
-  background: #fcc;
-}
-
-
-
-/* TABLET STYLES */
-
-@media screen and (min-width: 500px) {
-
-  /* applies to screens wider than 499px */
-
-  body {
-    background: #cfc;
-  }
-}
-
-
-
-/* DESKTOP STYLES */
-
-@media screen and (min-width: 1000px) {
-
-  /* applies to screens wider than 999px */
-
-  body {
-    background: #ccf;
-  }
-}
-
-```
+## Fonts
 The font is from google fonts:
-https://fonts.google.com/specimen/Noto+Serif?selection.family=Noto+Serif
+[Google fonts](https://fonts.google.com/specimen/Noto+Serif?selection.family=Noto+Serif)
+[Google fonts](https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap)
 
-## js/scripts.js
+# Code tutorials
 
-The `js/scripts.js` file contains a simple console.log statement to confirm that it is being executed.
+- Main use of this link was for javascript tutorials and basic understanding of CSS and HTML [W3 schools](https://www.w3schools.com/)
+- Used to help in understanding CSS grid [Grid By Example](https://gridbyexample.com/)
+- Also used to understand CSS grid [CSS Grid Garden](https://cssgridgarden.com/)
+- Used to understand CSS [CSS Tricks](https://css-tricks.com/)
+- When I came across errors I used [Stackoverflow](https://stackoverflow.com/)
+- A book which helped me understand basic knowledge of code as this is my first website: HTML & CSS: Design and Build Web Sites by Jon Duckett.
 
-```
-console.log("hello");
-```
-## images
-
-The images with the prefix tranquil were made on my own using a software called Figma
-Images that were used for the website were from:
-https://aestheticamagazine.com/
-https://readcereal.com/
-https://www.liamwong.com/
-https://www.metmuseum.org/
-
-## text for articles and posts
-https://aestheticamagazine.com/
-https://readcereal.com/
-https://www.liamwong.com/
-
-## api source
-https://metmuseum.github.io/
-
-## help with code
-https://www.w3schools.com/
-https://gridbyexample.com/
-https://css-tricks.com/
+# User testing
+- I had given my github pages link to a friend to give me feedback on the website, mainly for navigation and to test on their computer and phone. Their feedback:
+"The navigation is easy to use with the header being fixed. Only think that you could change is having the met collection api in a clearer place because it’s only on the home page at the moment with the articles so could be easily missed. And on the maintenance pages you could stick the footer to the bottom of the page but that’s just nit picks"
+- My response to this was that my api was not a main feature of the website, it doesn't require its own category as it comes under the 'Art' category and the maintenance pages are not part of my 4 pages so I have not put real content into them, they are there for smooth navigation.  
