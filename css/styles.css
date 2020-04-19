@@ -213,7 +213,7 @@ footer {
 }
 
 .aboutText {
-  color: grey;
+  color: #898477;
   width: 40%;
   margin: 10px;
   line-height: 1.5;
@@ -469,7 +469,7 @@ footer {
   /*homepage */
   .postImage img {
     filter: grayscale(100%);
-    transition: filter .5 ease-in-out;
+    transition: filter 250ms ease-in-out;
   }
 
   .postImage img:hover {
@@ -532,9 +532,6 @@ footer {
   .article-txt {
     grid-column: span 2;
   }
-}
 
-body {
-  background: white;
-}
+
 }
