@@ -4,7 +4,7 @@
 - The 4 webpages which are the Assignment are: index.html (Homepage), art.html(Art section), journey-into-midnight.html(Art post) and artSearch.html(The Met post). The rest (fashion.html, travel.html, about.html) have been put there to show smooth navigation, but they do not have real content.
 - The two posts that work are: Journey into midnight and The Met Search which bring you to a article page and the API.
 - I had not understood what branches were until I had finished the website so no branches were made.
-- My main bugs were caused by javascript errors which were resolved by trial and error and guidance from online tutorials.  
+- My main bugs were caused by javascript errors which were resolved by trial and error and guidance from the lab examples given to us.  
 
 # References
 
