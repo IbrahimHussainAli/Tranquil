@@ -43,5 +43,6 @@ The font is from google fonts:
 # User testing
 - I had given my github pages link to a friend to give me feedback on the website, mainly for navigation and to test on their computer and phone. Their feedback:
 > "The navigation is easy to use with the header being fixed. Only think that you could change is > having the met collection api in a clearer place because it’s only on the home page at the
-> moment with the articles so could be easily missed. And on the maintenance pages you could stick > the footer to the bottom of the page but that’s just nit picks"
+> moment with the articles so could be easily missed. And on the maintenance pages you could stick
+the footer to the bottom of the page but that’s just nit picks"
 - My response to this was that my api was not a main feature of the website, it doesn't require its own category as it comes under the 'Art' category and the maintenance pages are not part of my 4 pages so I have not put real content into them, they are there for smooth navigation.  
