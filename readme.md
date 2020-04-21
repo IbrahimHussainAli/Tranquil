@@ -24,12 +24,12 @@
 
 ## Api
 - I followed lab sheets and lectures for my API to work.
-- Api I used [Met Museum](https://metmuseum.github.io/)
+- Api I used [Met Museum API](https://metmuseum.github.io/)
 
 ## Fonts
 The font is from google fonts:
-[Google fonts](https://fonts.google.com/specimen/Noto+Serif?selection.family=Noto+Serif)
-[Google fonts](https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap)
+- [Google font: Noto Serif](https://fonts.google.com/specimen/Noto+Serif?selection.family=Noto+Serif)
+- [Google font: Crimson](https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap)
 
 # Code tutorials
 
