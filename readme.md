@@ -2,7 +2,7 @@
 ## Brief points about the assignment
 - The website I have chosen to create is a contemporary culture magazine showing art, fashion etc. I tried to give it a minimal aesthetic feel because that's the type of art and photos I'd want on there.
 - The 4 webpages which are the Assignment are: index.html, art.html, journey-into-midnight.html and artSearch.html. The rest (fashion.html, travel.html, about.html) have been put there to show smooth navigation, but they do not have real content.
-- Two posts work; Journey into midnight and The Met Search which bring you to a article page and the API.
+- The two posts that work are: Journey into midnight and The Met Search which bring you to a article page and the API.
 - I had not understood what branches were until I had finished the website so no branches were made.
 - My main bugs were caused by javascript errors which were resolved by trial and error and guidance from online tutorials.  
 
@@ -41,6 +41,8 @@ The font is from google fonts:
 - A book which helped me understand basic knowledge of code as this is my first website: HTML & CSS: Design and Build Web Sites by Jon Duckett.
 
 # User testing
-- I had given my github pages link to a friend to give me feedback on the website, mainly for navigation and to test on their computer and phone. Their feedback:
-"The navigation is easy to use with the header being fixed. Only think that you could change is having the met collection api in a clearer place because it’s only on the home page at the moment with the articles so could be easily missed. And on the maintenance pages you could stick the footer to the bottom of the page but that’s just nit picks"
+> I had given my github pages link to a friend to give me feedback on the website, mainly for
+> navigation and to test on their computer and phone. Their feedback:
+> "The navigation is easy to use with the header being fixed. Only think that you could change is > having the met collection api in a clearer place because it’s only on the home page at the
+> moment with the articles so could be easily missed. And on the maintenance pages you could stick > the footer to the bottom of the page but that’s just nit picks"
 - My response to this was that my api was not a main feature of the website, it doesn't require its own category as it comes under the 'Art' category and the maintenance pages are not part of my 4 pages so I have not put real content into them, they are there for smooth navigation.  
