@@ -1,54 +1,69 @@
 "use strict";
 
 (function() {
-    let queryBox = document.getElementById("metQuery");
-    let searchForm = document.getElementById("searchForm");
 
-    let baseURL = "https://collectionapi.metmuseum.org/public/collection/v1/search?q="
+  let queryBox = document.getElementById("metQuery");
+  let searchForm = document.getElementById("searchForm");
 
-    //const fetchButton = document.getElementById("fetch-button");
-    const fetchResult = document.getElementById("fetch-result");
+  let baseURL = "https://collectionapi.metmuseum.org/public/collection/v1/search?q="
 
-    searchForm.addEventListener("submit", function(ev) {
-      //clear the list when submit is pressed
-      while (fetchResult.hasChildNodes()) {
-        fetchResult.removeChild(fetchResult.firstChild);
-      }
+  //const fetchButton = document.getElementById("fetch-button");
+  const fetchResult = document.getElementById("fetch-result");
 
-      let url = baseURL + queryBox.value;
-      let request = new Request(url);
-      fetch(request)
-        .then(function(response) {
 
-          return response.json();
+  searchForm.addEventListener("submit", function(ev) {
+    //clear the list when submit is pressed
+    while (fetchResult.hasChildNodes()) {
+      fetchResult.removeChild(fetchResult.firstChild);
+    }
 
-        }).then(function(data) {
-          let i;
 
-          for (i = 0; i < 10; i++) {
 
-            let obj = (data.objectIDs[i]);
+    let url = baseURL + queryBox.value;
+    let request = new Request(url);
+    fetch(request)
+      .then(function(response) {
 
-            let objULR = `https://collectionapi.metmuseum.org/public/collection/v1/objects/${obj}`
+        return response.json();
 
-            fetch(objULR).then(function(response) {
-              return response.json();
+      }).then(function(data) {
+        let i;
 
-            }).then(function(data) {
+        for (i = 0; i < 10; i++) {
 
-                let title = data.title;
-                let img = data.primaryImage;
-                let artistName = data.artistDisplayName;
 
-                let list = document.createElement("li");
-                list.innerHTML = "<strong>" + title + "<br>" + artistName + `<img class="api-image" src="${img}" alt="${title}"/>`;
-                fetchResult.appendChild(list);
+          let obj = (data.objectIDs[i]);
 
-              }
 
-            })
-          queryBox.value = "";
-          ev.preventDefault();
-        }, false);
 
-    }());
+          let objULR = `https://collectionapi.metmuseum.org/public/collection/v1/objects/${obj}`
+
+          fetch(objULR).then(function(response) {
+            return response.json();
+
+          }).then(function(data) {
+
+            let title = data.title;
+            let img = data.primaryImage;
+            let artistName = data.artistDisplayName;
+
+
+            let list = document.createElement("li");
+            list.innerHTML = "<strong>" + title + "<br>" + artistName + `<img class="api-image" src="${img}" alt="${title}"/>`;
+            fetchResult.appendChild(list);
+
+
+          });
+
+        }
+
+      })
+    queryBox.value = "";
+    ev.preventDefault();
+  }, false);
+
+
+
+
+
+}());
