@@ -4,8 +4,8 @@
 
 - The 4 webpages which are the Assignment are: index.html (Homepage), art.html(Art section), journey-into-midnight.html(Art post) and artSearch.html(The Met post). The rest (fashion.html, travel.html, about.html) have been put there to show smooth navigation, but they do not have real content.
 - The homepage was created using CSS Grid, as was the "Art" page, I chose this because once you understand the basics on how it works it can be effective to create a good layout of images or article posts.
-- The Journey Into Midnight post was also create using CSS grid, I have chosen not to resize all the images but to use the CSS grid to adjust the images to your screen size.
-- The two posts that work are: Journey into midnight and The Met Search which bring you to a article page and the API.
+- The "Journey Into Midnight" post was also create using CSS grid, I have chosen not to resize all the images but to use the CSS grid to adjust the images to your screen size.
+- The "Search The Met Collection now" post allows you to search within The Met's artwork collection and I have chosen to output the title, artist if there is one and the artwork itself. 
 - I had not understood what branches were until I had finished the website so no branches were made.
 - My main bugs were caused by javascript errors which were resolved by trial and error and guidance from the lab examples given to us.  
 
