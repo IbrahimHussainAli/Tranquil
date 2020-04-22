@@ -18,7 +18,6 @@
     }
 
 
-
     let url = baseURL + queryBox.value;
     let request = new Request(url);
     fetch(request)
@@ -31,10 +30,7 @@
 
         for (i = 0; i < 10; i++) {
 
-
           let obj = (data.objectIDs[i]);
-
-
 
           let objULR = `https://collectionapi.metmuseum.org/public/collection/v1/objects/${obj}`
 
@@ -47,11 +43,9 @@
             let img = data.primaryImage;
             let artistName = data.artistDisplayName;
 
-
             let list = document.createElement("li");
             list.innerHTML = "<strong>" + title + "<br>" + artistName + `<img class="api-image" src="${img}" alt="${title}"/>`;
             fetchResult.appendChild(list);
-
 
           });
 
@@ -61,9 +55,6 @@
     queryBox.value = "";
     ev.preventDefault();
   }, false);
-
-
-
 
 
 }());
