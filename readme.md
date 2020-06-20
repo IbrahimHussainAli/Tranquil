@@ -1,4 +1,4 @@
-# CTEC3905 Assignment
+
 ## Brief points about the assignment
 - The website I have chosen to create is a contemporary culture magazine showing art, fashion etc. I tried to give it a minimal aesthetic feel because that's the type of art and photos I'd want on there. The fictional magazine is made to give an all around easy and minimal navigation so you feel "Tranquil" while using the site. Thank you.
 - The 4 webpages which are the Assignment are: index.html (Homepage), art.html(Art section), journey-into-midnight.html(Art post) and artSearch.html(The Met post). The rest (fashion.html, travel.html, about.html) have been put there to show smooth navigation, but they do not have real content.
